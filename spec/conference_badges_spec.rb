@@ -103,6 +103,7 @@ TEXT
         expect($stdout).to receive(:puts).with(line.chomp)
       end
       printer(attendees)
+      
     end
 
   end
